@@ -30,8 +30,8 @@ h1, h2{
 }
 .hero img {
     display: block;
-    width: 100;
     height: auto;
+    width: 100px;
 }
 .hero article{
     position: absolute;
@@ -45,9 +45,24 @@ h1, h2{
 }
 img {
     display: block;
-    width: 100;
     height: auto;
+    width: 100px;
 }
 p{
     background-color: black;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: ;
+    transition: color 0,2 ease;
+}
+nav a:hover {
+    color:#419D78;
 }
