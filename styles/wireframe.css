@@ -1,0 +1,25 @@
+.logo{
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /*Maintain aspects ratio*/
+    border-radius: 10px; 
+}
+/* Color palette*/
+
+body{
+    background-color: D8D4E2;
+    font-family: "Roboto", sans-serif
+    font-weight: 400;
+}
+h1, h2{
+    font-weight: 100;
+}
+header{
+    background-color: 2D3047;
+}
+button{
+    background-color: 419D78;
+}
+.call-to-action{
+    background-color: E0A458;
+}
