@@ -60,7 +60,7 @@ nav ul{
 }
 nav a{
     text-decoration: none;
-    color: ;
+    color: #E0A458;
     transition: color 0,2 ease;
 }
 nav a:hover {
