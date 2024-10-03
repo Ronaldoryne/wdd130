@@ -34,8 +34,8 @@ h1, h2, h3{
 }
 .hero img {
     display: block;
-    height: auto;
-    width: 100px;
+    height: 300;
+    width: 500px;
 }
 .hero article{
     position: absolute;
@@ -49,11 +49,14 @@ h1, h2, h3{
 }
 img {
     display: block;
-    height: auto;
-    width: 100px;
+    height: 300;
+    width: 500px;
 }
 p{
-    background-color: #419D78;
+    background-color: #D8D4E2;
+    color: #2D3047;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 nav ul{
     list-style: none;
@@ -69,3 +72,13 @@ nav a{
 nav a:hover {
     color:#419D78;
 }
+.social-icon{
+    width: 20px;
+    height: 20px;
+}
+.sociallinks img{
+    width: 20px;
+    height: 20px;
+}
+
+
