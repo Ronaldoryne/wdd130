@@ -13,7 +13,11 @@ body{
     color: #419D78;
     margin: auto;
 }
-h1, h2{
+header{
+    background-color: var(--accent1-color);
+    font-weight: 400;
+}
+h1, h2, h3{
     font-family: "Roboto", sans-serif;
     position: relative;
 }
@@ -49,7 +53,7 @@ img {
     width: 100px;
 }
 p{
-    background-color: black;
+    background-color: #419D78;
 }
 nav ul{
     list-style: none;
@@ -61,7 +65,7 @@ nav ul{
 nav a{
     text-decoration: none;
     color: #E0A458;
-    transition: color 0,2 ease;
+    transition: color 0,2s ease;
 }
 nav a:hover {
     color:#419D78;
