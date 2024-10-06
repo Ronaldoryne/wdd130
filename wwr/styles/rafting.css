@@ -16,10 +16,47 @@ body{
 header{
     background-color: var(--accent1-color);
     font-weight: 400;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    padding: 20px;
+    color: #D8D4E2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header img{
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nal ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+header nav li{
+    margin-right: 20px;
+}
+header nav a{
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+header nav a:hover{
+    color: #2D3047;
 }
 h1, h2, h3{
     font-family: "Roboto", sans-serif;
     position: relative;
+    margin-bottom: 20px;
 }
 .social-media-links a{
     text-decoration: none;
@@ -34,6 +71,7 @@ h1, h2, h3{
 }
 .hero img {
     display: block;
+    margin: 0 0.25rem 0 1rem;
     height: 300;
     width: 500px;
 }
@@ -51,6 +89,7 @@ img {
     display: block;
     height: 300;
     width: 500px;
+    margin: 0 0.25rem 0 1rem;
 }
 p{
     background-color: #D8D4E2;
@@ -80,5 +119,71 @@ nav a:hover {
     width: 20px;
     height: 20px;
 }
+.History{
+    padding: 40px;
+    background-color: #D8D4E2;
+}
+#History h3{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: azure;
+}
+#History p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.Adventure{
+    padding: 40px;
+    background-color: aqua;
+}
+#Adventure h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: azure;
+}
+#Adventure p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.Adventure img{
+   width: 300px;
+   height: 300px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+footer{
+    background-color: aqua;
+    padding: 20px;
+    text-align: right;
+}
+footer ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+footer li{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+footer img{
+    width: 30px;
+    height: auto;
+    transition: opacity 0.2s ease;
+}
+footer img:hover{
+    opacity: 0.7;
+}
+footer ul{
+    flex-direction: column;
+    align-items: center;
+}
+
 
 
