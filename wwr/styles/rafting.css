@@ -144,33 +144,17 @@ nav a:hover {
     font-weight: bold;
     color: azure;
 }
-#Adventure p{
-    margin-bottom: 40px;
-    font-size: 18px;
-    line-height: 1.6;
-}
-.Adventure img{
-   width: 300px;
-   height: 300px;
-   border-radius: 10px;
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
 .Adventure-roll{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-}
-.Adventure-roll  figure{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .Adventure-roll img{
-    width: 100px;
+    width: 18%;
     height: auto;
-}
-.Adventure-roll figcaption{
-    font-size: 16px;
-    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 footer{
     background-color: aqua;
