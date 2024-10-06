@@ -155,7 +155,22 @@ nav a:hover {
    border-radius: 10px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-
+.Adventure-roll{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Adventure-roll  figure{
+    margin: 1opx;
+}
+.Adventure-roll img{
+    width: 100px;
+    height: auto;
+}
+.Adventure-roll figcaption{
+    font-size: 16px;
+    text-align: center;
+}
 footer{
     background-color: aqua;
     padding: 20px;
