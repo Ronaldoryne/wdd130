@@ -66,12 +66,28 @@ h1, h2, h3{
 .social-media-links a:hover{
     color: var(--accent2-color);
 }
+.social-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.social-icon a{
+    margin: 10px;
+    display: inline-block;
+}
+.social-icon img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
 .hero{
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .hero img {
-    display: block;
-    margin: 0 0.25rem 0 1rem;
+    margin: 0 1rem;
     height: 300px;
     width: 500px;
 }
@@ -144,17 +160,31 @@ nav a:hover {
     font-weight: bold;
     color: azure;
 }
-.Adventure-roll{
+.adventure-roll {
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+}
+.adventure-roll h2{
+    margin-bottom: 20px;
+}
+.image-gallery {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
-.Adventure-roll img{
+.image-gallery figure{
+    margin: 10px;
     width: 18%;
+}
+.image-gallery img{
+    width: 100%;
     height: auto;
-    margin: 5px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.image-gallery figcaption{
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
 }
 footer{
     background-color: aqua;
