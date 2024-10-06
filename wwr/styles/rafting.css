@@ -156,12 +156,13 @@ nav a:hover {
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .Adventure-roll{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 }
 .Adventure-roll  figure{
-    margin: 1opx;
+    display: flex;
+    flex-direction: column;
 }
 .Adventure-roll img{
     width: 100px;
