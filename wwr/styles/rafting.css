@@ -54,7 +54,7 @@ nav ul {
 nav a {
   text-decoration: none;
   color: #E0A458;
-  transition: color 0.2 ease;
+  transition: all 0.5s ease-in-out;
 }
 
 nav a:hover {
