@@ -264,5 +264,10 @@ footer .sociallinks p {
     width: 100%;
   }
 }
+.map iframe{
+  border: 0;
+  width: 100%;
+  height: 450px;
+}
 
 
